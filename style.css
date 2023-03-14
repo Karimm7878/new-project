@@ -26,6 +26,9 @@ form{
     overflow: hidden;
    background-color: #333;
    position: fixed;
+   text-align: center;
+   margin-left: 500px;
+   border-radius: 20px;
 }
 
 .li {
@@ -43,7 +46,7 @@ form{
     text-decoration: none;
 }
 .li a:hover{
-    background-color: #111;
+    background-color: #313030;
 }
 /* .la {
     float: left;
@@ -112,8 +115,8 @@ input{
     -moz-appearance: none;
     appearance: none;
     border-radius: 50%;
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 20px;
+    height: 20px;
     box-shadow: 0px 0px 5px #aac5c6;
     border: 0.2vw solid rgda( 2, 228, 231, 0.8);
     background-color: #344056;
@@ -241,4 +244,18 @@ input:checked{
     background-color: #007bff;
     color: #fff;
   }
+  footer {
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+    background-color: #666464;
+    font-size: 14px;
+    color: #333;
+    padding: 20px;
+
+  }
+#html1{
+    background-color: rgb(159, 172, 183);
+}  
+
  
